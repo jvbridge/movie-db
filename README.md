@@ -1,4 +1,4 @@
-# Movie Database 
+# Movie Database 🎬🏆
 
 A small mock movie database
 
@@ -7,7 +7,7 @@ A small mock movie database
 ![Top Language](https://img.shields.io/github/languages/top/jvbridge/movie-db)
 
 
-## Description
+## Description 🍿
 
 
 ## Prerequisites 🎖
@@ -22,7 +22,7 @@ git clone
 ```
 
 
-## Demo
+## Demo 🎥
 
 ## Deployed Link 
 
@@ -39,11 +39,11 @@ git clone
 
 ## Built With :
 - [x] [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [x] [NodeJS](https://nodejs.org/)
-- [x] [Express](https://www.npmjs.com/package/express)
-- [x] [Heroku](https://www.heroku.com/platform)
+- [x] [NodeJS] (https://nodejs.org/)
+- [x] [Express] (https://www.npmjs.com/package/express)
+- [x] [Heroku] (https://www.heroku.com/platform)
 - [x] [Insomnia](https://insomnia.rest/download)
-- [x] [MySQL](https://dev.mysql.com/doc/refman/8.0/en/join.html)
+- [x] [MySQL] (https://dev.mysql.com/doc/refman/8.0/en/join.html)
 - [x] [npm documentation on MySQL2](https://www.npmjs.com/package/mysql2)
 
 

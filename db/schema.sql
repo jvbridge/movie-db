@@ -10,7 +10,7 @@ CREATE TABLE movies (
 
 CREATE TABLE reviews (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(30) NOT NULL,
+  name VARCHAR(100) NOT NULL,
   movies INT,
   FOREIGN KEY (movies)
   REFERENCES movies(id)
