@@ -10,7 +10,7 @@ const PORT = process.env.port || 3000;
 app.use(clog);
 
 app.use(express.json());
-app.use(express.urlencoded);
+app.use(express.urlencoded({extended:true}));
 
 // main API router
 app.use('/api', api);
@@ -19,5 +19,5 @@ app.use('/api', api);
 
 // starting the app
 app.listen(PORT, () => {
-    console.log("Server is lisetening on port: ", PORT);
+    console.log("Server is listening on port: ", PORT);
 });
