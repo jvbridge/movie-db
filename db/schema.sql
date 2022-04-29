@@ -5,14 +5,14 @@ USE movie_db;
 
 CREATE TABLE movies (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(150) NOT NULL
+  movie_name VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE reviews (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  movies INT,
-  FOREIGN KEY (movies)
+  review TEXT NOT NULL,
+  movie_id INT,
+  FOREIGN KEY (movie_id)
   REFERENCES movies(id)
   ON DELETE SET NULL
 );
