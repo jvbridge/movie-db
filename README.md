@@ -1,4 +1,4 @@
-# Movie Database 
+# Movie Database 🎬🏆
 
 A small mock movie database
 
@@ -7,7 +7,7 @@ A small mock movie database
 ![Top Language](https://img.shields.io/github/languages/top/jvbridge/movie-db)
 
 
-## Description
+## Description 🍿
 
 
 ## Prerequisites 🎖
@@ -22,7 +22,7 @@ git clone
 ```
 
 
-## Demo
+## Demo 🎥
 
 ## Deployed Link 
 
