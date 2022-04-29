@@ -41,15 +41,20 @@ movies.post('/add-movie', (req, res) => {
 movies.post('/update-review', (req, res) => {
     console.info("got a post request to update a review");
     const {text, id} = req.body;
-    db.query("INSERT INTO reviews(review, movie_id) VALUES(?)", [text, id], (err, results) =>{
+    console.info(`Review: ${text}, ID: ${id}`);
+    db.query("INSERT INTO reviews(review, movie_id) VALUES (?,?)", [text,id], (err, results) =>{
         if (err) console.error("We got an error inserting into the database");
         res.json(`Adding review`);
     });
     res.json("You tried to add a review");
 });
 
-movies.delete('/movie/id', (req,res) => {
+movies.delete('/movie/:id', (req,res) => {
     console.info("got a request to delete a movie");
+    const id = req.params.id;
+    db.query("DELETE FROM movies WHERE id = ?",id , (err, results) =>{
+        if (err) console.error("We got an error inserting into the database");
+    });
     res.json("You tried to delete a movie");
 });
 
