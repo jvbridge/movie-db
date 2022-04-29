@@ -12,7 +12,7 @@ CREATE TABLE reviews (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   review TEXT NOT NULL,
   movie_id INT,
-  FOREIGN KEY (movies)
+  FOREIGN KEY (movie_id)
   REFERENCES movies(id)
   ON DELETE SET NULL
 );

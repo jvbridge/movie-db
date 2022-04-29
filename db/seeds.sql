@@ -1,4 +1,4 @@
-INSERT INTO movies (name)
+INSERT INTO movies (movie_name)
 VALUES ("Pirates of the Caribbean: The Curse of the Black Pearl"),
        ("Up"),
        ("Toy Story"),
@@ -10,7 +10,7 @@ VALUES ("Pirates of the Caribbean: The Curse of the Black Pearl"),
        ("The Addams Family"),
        ("Coco");
 
-INSERT INTO reviews (review, movies)
+INSERT INTO reviews (review, movie_id)
 VALUES ("Finally, a real swashbuckling film to make me laugh", 1),
        ("Proof that Disney can still create good movies", 1),
        ("What i'm saying is I couldn't get enough of this movie. It was so well done.", 1),
