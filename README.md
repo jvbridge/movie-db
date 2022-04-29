@@ -1,4 +1,6 @@
-# Movie Database A small mock movie database
+# Movie Database 
+
+A small mock movie database
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -46,6 +48,8 @@ git clone
 Jonathan Bridge
 * [Github] (https://github.com/jvbridge)
 * [LinkedIn] (https://www.linkedin.com/in/)
+
+
 YiLin Ong
 * [Github] (https://github.com/chaunnybby7)
 * [LinkedIn] (https://www.linkedin.com/in/chauntelleong/)
