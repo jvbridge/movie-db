@@ -11,10 +11,13 @@ app.use(clog);
 
 app.use(express.json());
 app.use(express.urlencoded);
+
+// main API router
 app.use('/api', api);
 
+// TODO: public gets
 
-
+// starting the app
 app.listen(PORT, () => {
     console.log("Server is lisetening on port: ", PORT);
 });
